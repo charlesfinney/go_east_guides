@@ -1,0 +1,450 @@
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+/*!
+normalize.css v^3.0 | MIT License | git.io/normalize
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+*/
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0
+}
+
+[hidden],
+template {
+	display: none
+}
+
+a {
+	background-color: transparent
+}
+
+a:active,
+a:hover {
+	outline: 0
+}
+
+abbr[title] {
+	border-bottom: 1px dotted
+}
+
+b,
+strong {
+	font-weight: bold
+}
+
+dfn {
+	font-style: italic
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0
+}
+
+mark {
+	background: #ff0;
+	color: #000
+}
+
+small {
+	font-size: 80%
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+
+sup {
+	top: -0.5em
+}
+
+sub {
+	bottom: -0.25em
+}
+
+img {
+	border: 0
+}
+
+svg:not(:root) {
+	overflow: hidden
+}
+
+figure {
+	margin: 1em 40px
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0
+}
+
+pre {
+	overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0
+}
+
+button {
+	overflow: visible
+}
+
+button,
+select {
+	text-transform: none
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+input {
+	line-height: normal
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+	border: 0;
+	padding: 0
+}
+
+textarea {
+	overflow: auto
+}
+
+optgroup {
+	font-weight: bold
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+td,
+th {
+	padding: 0
+}
+
+.hidden,
+[hidden] {
+	display: none !important
+}
+
+.pure-img {
+	max-width: 100%;
+	height: auto;
+	display: block
+}
+
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+.pure-menu,
+nav {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.pure-menu-fixed {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3
+}
+
+.pure-menu-list,
+nav ul,
+.pure-menu-item,
+nav ul li {
+	position: relative
+}
+
+.pure-menu-list,
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.pure-menu-item,
+nav ul li {
+	padding: 0;
+	margin: 0;
+	height: 100%
+}
+
+.pure-menu-link,
+nav a,
+nav ul li a,
+.pure-menu-heading,
+nav a {
+	display: block;
+	text-decoration: none;
+	white-space: nowrap
+}
+
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+.pure-menu-horizontal,
+nav {
+	width: 100%;
+	white-space: nowrap
+}
+
+.pure-menu-horizontal .pure-menu-list,
+nav .pure-menu-list,
+.pure-menu-horizontal nav ul,
+nav .pure-menu-horizontal ul,
+nav ul {
+	display: inline-block
+}
+
+.pure-menu-horizontal .pure-menu-item,
+nav .pure-menu-item,
+.pure-menu-horizontal nav ul li,
+nav ul .pure-menu-horizontal li,
+nav ul li,
+.pure-menu-horizontal .pure-menu-heading,
+nav .pure-menu-heading,
+.pure-menu-horizontal nav a,
+nav .pure-menu-horizontal a,
+nav a,
+.pure-menu-horizontal .pure-menu-separator,
+nav .pure-menu-separator {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle
+}
+
+@font-face {
+	font-family: "Essays 1743";
+	src: url("f/Essays1743.eot?") format("eot"), url("f/Essays1743.woff") format("woff"), url("f/Essays1743.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: "Libertine";
+	src: url("f/Libertine.eot?") format("eot"), url("f/Libertine.woff") format("woff"), url("f/Libertine.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: "Libertine";
+	font-weight: bold;
+	src: url("f/Libertine-bold.eot?") format("eot"), url("f/Libertine-bold.woff") format("woff"), url("f/Libertine-bold.ttf") format("truetype")
+}
+
+section {
+	font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+	word-spacing: 0.1em
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Essays 1743", "Marker Felt", "Kristen ITC", "Viner Hand ITC", "Lucida Handwriting", Amienne, Boopee, "Segoe Print", "Times New Roman", serif;
+	font-weight: normal
+}
+
+h1,
+h2 {
+	margin-top: 0
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin-bottom: 0
+}
+
+h1 {
+	font-size: 4em;
+	line-height: 90px
+}
+
+h2 {
+	font-size: 2.5em;
+	line-height: 60px
+}
+
+h3 {
+	font-size: 2em;
+	line-height: 50px
+}
+
+nav {
+	background-color: #700;
+	padding: 5px 0
+}
+
+nav a {
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 2em;
+	font-weight: bold
+}
+
+section {
+	margin-left: 10px
+}
+
+body#homepage section {
+	margin-bottom: 4em
+}
+
+body#homepage li {
+	list-style-type: none
+}
+
+body#homepage ul#woodeggbooks,
+body#homepage ul#gotolaunchbooks {
+	padding: 0
+}
+
+body#homepage ul#woodeggbooks li,
+body#homepage ul#gotolaunchbooks li {
+	display: inline
+}
+
+body#contact section#content,
+body#aboutpage section#content {
+	font-size: 1.3em;
+	max-width: 30em
+}
+
+body#contact section#content div#address,
+body#contact section#content div.vcard {
+	margin-top: 2em
+}
+
+body#gotolaunch ul {
+	padding: 0
+}
+
+body#gotolaunch li {
+	list-style-type: none
+}
+
+body#gotolaunch li h2,
+body#gotolaunch li h3 {
+	margin-top: -0.25em;
+	margin-bottom: 2em
+}
