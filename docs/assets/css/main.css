@@ -334,26 +334,7 @@ nav .pure-menu-separator {
 	vertical-align: middle
 }
 
-@font-face {
-	font-family: "Essays 1743";
-	src: url("f/Essays1743.eot?") format("eot"), url("f/Essays1743.woff") format("woff"), url("f/Essays1743.ttf") format("truetype")
-}
 
-@font-face {
-	font-family: "Libertine";
-	src: url("f/Libertine.eot?") format("eot"), url("f/Libertine.woff") format("woff"), url("f/Libertine.ttf") format("truetype")
-}
-
-@font-face {
-	font-family: "Libertine";
-	font-weight: bold;
-	src: url("f/Libertine-bold.eot?") format("eot"), url("f/Libertine-bold.woff") format("woff"), url("f/Libertine-bold.ttf") format("truetype")
-}
-
-section {
-	font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
-	word-spacing: 0.1em
-}
 
 h1,
 h2,
